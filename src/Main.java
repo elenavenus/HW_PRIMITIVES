@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int ticketPrice = 200;//СТОИМОСТЬ БИЛЕТА
         int priceForMile = 5;//стоимость за один бонус
-        int bonus = ticketPrice/priceForMile;
+        int bonus = ticketPrice / priceForMile;
         System.out.println("Кол-во бонусов " + bonus);
     }
 }
